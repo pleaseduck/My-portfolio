@@ -1,0 +1,23 @@
+.main-nav--desktop {
+  display: none;
+}
+.main-nav {
+  background-color: #eff3f7;
+}
+.main-nav__logo {
+  min-height: 55px;
+  position: relative;
+  &::after {
+    content: " ";
+    position: absolute;
+    width: 25px;
+    height: 5px;
+    background-color: #58697a;
+    right: 20px;
+    top: 18px;
+    border-radius: 5px;
+    box-shadow:
+    0 8px 0 #58697a,
+    0 16px 0 #58697a;
+  }
+}
